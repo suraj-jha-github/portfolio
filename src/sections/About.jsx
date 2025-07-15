@@ -33,13 +33,16 @@ const About = () => {
                 </div>
                 <div className="mt-5">
                   <h1 className="text-blue-50 md:text-5xl text-3xl">
-                    David JhonSan
+                    Suraj Jha
                   </h1>
                   <p className="md:text-2xl mt-2">
-                    I am a San francisco-based product designer with a focus on
-                    web design, illustration, a visual development. I have a
-                    diverse range of experience having worked across various
-                    fields and industries.
+                  I'm a MERN stack developer with 3.5 years of experience, specializing in frontend development.
+Proficient in React.js, JavaScript, HTML, and CSS with a keen eye for responsive UI/UX design.
+I focus on building clean, interactive, and performance-optimized user interfaces.
+Collaborating closely with designers and backend teams is one of my core strengths.
+I’m passionate about creating seamless user experiences that bring products to life.
+
+
                   </p>
                   <div className="mt-4 text-pink-100 text-sm">
                     <p>🎭 Code Create Repeat 🎭</p>
