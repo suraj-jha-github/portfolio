@@ -132,8 +132,8 @@ const slides = [
   },
   {
     id: 7,
-    title: "Sofi",
-    img: "/images/p1.png",
+    title: "Wild Oasis (in progress)",
+    img: "/images/p19.png",
     mobileImg: "/images/p1-mobile.png",
     link: "",
   },
