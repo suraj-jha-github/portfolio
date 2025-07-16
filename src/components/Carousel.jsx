@@ -42,7 +42,12 @@ const Carousel = () => {
                 <img
                   src={slide.img}
                   alt="slide"
-                  className="w-full h-full object-cover object-center"
+                  className="w-full h-full object-cover object-center hidden md:block"
+                />
+                <img
+                  src={slide.mobileImg}
+                  alt="slide"
+                  className="w-full h-full object-cover object-center md:hidden"
                 />
                 <div className="absolute w-full h-20 bottom-0 left-0 bg-black-300 bg-opacity-90 px-5">
                   <div className="w-full h-full flex justify-between items-center">
