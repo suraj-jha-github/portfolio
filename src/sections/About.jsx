@@ -3,7 +3,8 @@ import { OrbitControls } from "@react-three/drei";
 
 import TitleHeader from "../components/TitleHeader";
 import GradientSpheres from "../components/GradientSpheres";
-import { bentoSocialLinks } from "../constants";
+import ExperienceCard from "../components/ExperienceCard";
+import { bentoSocialLinks, experience } from "../constants";
 import { Alien } from "../components/models/Alien";
 
 const About = () => {
@@ -40,7 +41,7 @@ const About = () => {
 Proficient in React.js, JavaScript, HTML, and CSS with a keen eye for responsive UI/UX design.
 I focus on building clean, interactive, and performance-optimized user interfaces.
 Collaborating closely with designers and backend teams is one of my core strengths.
-I’m passionate about creating seamless user experiences that bring products to life.
+I'm passionate about creating seamless user experiences that bring products to life.
 
 
                   </p>
@@ -249,6 +250,22 @@ I’m passionate about creating seamless user experiences that bring products to
                 </a>
               </div>
             </div>
+          </div>
+        </div>
+
+        {/* Experience Section */}
+        <div className="md:mt-20 mt-10">
+          <div className="w-full px-2 md:px-4 lg:px-8 md:p-0 mb-10">
+            <TitleHeader
+              title="My Experience"
+              number="02"
+              text="Professional journey and achievements"
+            />
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {experience.map((exp, index) => (
+              <ExperienceCard key={index} experience={exp} index={index} />
+            ))}
           </div>
         </div>
       </div>
