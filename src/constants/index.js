@@ -97,46 +97,61 @@ const slides = [
   },
   {
     id: 2,
+    title: "Transaction Tracker",
+    img: "/images/p7d.png",
+    mobileImg: "/images/p7m.jpg",
+    link: "https://transaction-tracker-delta.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Ecommerce Admin",
+    img: "/images/p8d.png",
+    mobileImg: "/images/p8m.jpg",
+    link: "https://ecommerce-next-admin-roan.vercel.app/249544ca-378c-49e5-910e-bd8ed285e3c4",
+  },
+  {
+    id: 4,
+    title: "Ecommerce User",
+    img: "/images/p9d.png",
+    mobileImg: "/images/p9m.jpg",
+    link: "https://ecommerce-next-user.vercel.app/",
+  },
+  {
+    id: 5,
     title: "Prescripto",
     img: "/images/p2.png",
     mobileImg: "/images/p4.jpg",
     link: "https://prescripto-v9ae.onrender.com",
   },
   {
-    id: 3,
+    id: 6,
     title: "Food Ordering App",
     img: "/images/p3.png",
     mobileImg: "/images/p3.jpg",
     link: "https://food-ordering-app-frontend-3mzu.onrender.com",
   },
   {
-    id: 4,
+    id: 7,
     title: "Redux Pizza Ordering App",
     img: "/images/p4.png",
     mobileImg: "/images/p1.jpg",
     link: "https://66aa49c73aae45008cfdc619--chipper-mermaid-6adbb8.netlify.app",
   },
   {
-    id: 5,
+    id: 8,
     title: "E-commerce Website",
     img: "/images/p5.png",
     mobileImg: "/images/p2.jpg",
     link: "https://ecommerce-mern-9bmv.onrender.com/",
   },
   {
-    id: 6,
+    id: 9,
     title: "Market Place App",
     img: "/images/p6.png",
     mobileImg: "/images/p6.png",
     link: "https://market-place-0mzm.onrender.com/login",
   },
-  {
-    id: 7,
-    title: "Wild Oasis (in progress)",
-    img: "/images/p19.png",
-    mobileImg: "/images/p1-mobile.png",
-    link: "",
-  },
+ 
 ];
 
 const testimonials = [
