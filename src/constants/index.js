@@ -90,10 +90,10 @@ const iconsList = [
 const slides = [
   {
     id: 1,
-    title: "Wild Oasis(In progress)",
-    img: "/images/p18.png",
-    mobileImg: "/images/p187.png",
-    link: "",
+    title: "Prescripto",
+    img: "/images/p2.png",
+    mobileImg: "/images/p4.jpg",
+    link: "https://prescripto-frontend-sigma.vercel.app/"
   },
   {
     id: 2,
@@ -142,7 +142,7 @@ const slides = [
     title: "Prescripto",
     img: "/images/p2.png",
     mobileImg: "/images/p4.jpg",
-    link: "https://prescripto-v9ae.onrender.com",
+    link: "https://prescripto-frontend-sigma.vercel.app/",
   },
   {
     id: 6,
