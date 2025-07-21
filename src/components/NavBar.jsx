@@ -22,6 +22,14 @@ const NavBar = () => {
               </a>
             </div>
           ))}
+          {/* Download CV Button */}
+          <a
+            href="/cv.pdf"
+            download
+            className="ml-4 px-5 py-2 rounded-full bg-pink-100 text-black font-semibold shadow-md hover:bg-pink-200 transition-colors duration-300 text-lg"
+          >
+            Download CV
+          </a>
         </div>
       </div>
     </div>

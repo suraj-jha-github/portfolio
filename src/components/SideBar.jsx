@@ -50,7 +50,17 @@ const SideBar = () => {
           <img src="images/x.png" alt="close" />
         </div>
         <div className="mt-20 px-10">
-          <div className="flex flex-col items-center gap-20">
+          <div className="flex flex-col items-center gap-10">
+            {/* Download CV Button at the top */}
+            <div className="side-bar-item opacity-0 w-full flex justify-center">
+              <a
+                href="/cv.pdf"
+                download
+                className="mb-6 px-6 py-3 rounded-full bg-pink-100 text-black font-semibold shadow-md hover:bg-pink-200 transition-colors duration-300 text-xl w-full text-center"
+              >
+                Download CV
+              </a>
+            </div>
             {navItems.map((item, index) => (
               <div
                 key={index}
